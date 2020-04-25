@@ -8,19 +8,19 @@ import { Router } from 'express';
 const transactionsRouter = Router();
 
 transactionsRouter.get('/', async (request, response) => {
-  // TODO
+  response.json({ ok: true });
 });
 
 transactionsRouter.post('/', async (request, response) => {
-  // TODO
+  response.json(request.body);
 });
 
 transactionsRouter.delete('/:id', async (request, response) => {
-  // TODO
+  response.status(204).send();
 });
 
 transactionsRouter.post('/import', async (request, response) => {
-  // TODO
+  response.json(request.body);
 });
 
 export default transactionsRouter;
