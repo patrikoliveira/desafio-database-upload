@@ -24,7 +24,7 @@ export default class CreateCategories1587842095950
             default: 'now()',
           },
           {
-            name: 'upated_at',
+            name: 'updated_at',
             type: 'timestamp',
             default: 'now()',
           },
